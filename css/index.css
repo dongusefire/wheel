@@ -1,0 +1,111 @@
+body {
+    margin:0;
+}
+ul {
+    margin:0;
+    padding:0;
+}
+.gameContent {
+    width:100%;
+    height: 100%;
+    overflow:auto;
+    background-color: #f64b20;
+}
+.index .imgBox {
+    padding:15px 12px 0 12px;
+}
+.index .imgBox img{
+    width:100%;
+}
+.index .turnplate-box {
+    height:300px;
+    border:1px dashed #fff;
+    margin:6px 6px;
+    border-radius:4px;
+}
+.my-awards .title-box {
+    margin:16px 0;
+}
+.my-awards .title-box img {
+    width:100%;
+}
+.index .my-awards {
+    border:1px dashed #fff;
+    margin:6px 6px;
+    margin-top: 20px;
+    border-radius:4px;
+    background-color: rgba(255,255,255,0.2);
+}
+.my-awards li {
+    padding:6px 10px;
+    color:#ffffff;
+}
+.my-awards .checkDetail {
+    float: right;
+    color:yellow;
+}
+.explain .title-box {
+    margin:16px 0;
+}
+.explain .title-box img {
+    width:100%;
+}
+.index .explain {
+    border:1px dashed #fff;
+    margin:6px 6px;
+    margin-top: 20px;
+    border-radius:4px;
+    background-color: rgba(255,255,255,0.2);
+    padding:0 10px;
+}
+.explain .award p {
+    font-size:18px;
+    font-weight: bold;
+    margin:0;
+    margin-bottom: 5px;
+    color:#ffffff;
+}
+.explain .award ul {
+    border-bottom:1px solid #fff;
+}
+.explain .award li {
+    padding:6px 0;
+    color:#ffffff;
+    list-style:none;
+}
+.explain .award .time {
+    margin-top:8px;
+}
+.index .resuleBox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.85);
+    color: #FFF;
+    z-index: 999;
+    display:none;
+}
+.index .win {
+    position: absolute;
+    top:30px;
+    z-index:1000;
+    display:none;
+}
+.index .win img {
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+}
+.index .lose {
+    position: absolute;
+    top:60px;
+    z-index:1000;
+    display:none;
+}
+.index .lose img {
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+}
